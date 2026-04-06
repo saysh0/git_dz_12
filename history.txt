@@ -1,0 +1,500 @@
+   72  git status
+   73  git commit --help
+   74  git commit -m 'added direktory and file'
+   75  git status
+   76  git branch
+   77  git switch main
+   78  git merge --help
+   79  git merge nikita
+   80  ls -la
+   81  git status
+   82  git push 
+   83  git remote -v
+   84  git remote add upstream https://github.com/iohichu/test_pr.git
+   85  git remote -v
+   86  git pull
+   87  git status
+   88  git pull upstream main
+   89  git log
+   90  git log --oneline
+   91  git push
+   92  ls -la
+   93  ls -la
+   94  ls -la d
+   95  ls -la directory
+   96  ls -la --helpls -la --help
+   97  ls --help
+   98  ls -la -F directory
+   99  ls -d */
+  100  ls git-intro
+  101  rm git-intro
+  102  rm --help
+  103  rm -d git-intro
+  104  rm -rd git-intro
+  105  ls -la git-intro
+  106  cd git-intro
+  107  ls -la .git
+  108  cd .git/objects
+  109  ls -la
+  110  ls -d */
+  111  cd ..
+  112  cd ..
+  113  cd ..
+  114  cd ..
+  115  cd .
+  116  cd desctop
+  117  cd Desctop
+  118  ls -d */
+  119  ls git_repo_12_02_2026
+  120  rm -rd git_repo_12_02_2026
+  121  y
+  122  ls -d */
+  123  ls git_rp
+  124  rm -rd git_rp
+  125  ls -d */
+  126  ls test1
+  127  rm -rd test1
+  128  ls -d */
+  129  ls git_team_work
+  130  ls iot_db/
+  131  ls git-intro/
+  132  cd .
+  133  cd ..
+  134  cd /c/Users/nikit/
+  135  cd /c/Users/nikit/PycharmProjects/PythonProject
+  136  ls -la
+  137  cd 12
+  138  ls -la
+  139  cd 01 
+  140  ls -la
+  141  mkdir -p git-intro
+  142  cd git-intro/
+  143  git clone git@github.com:saysh0/git-intro.git
+  144  cp -i molodec.jpg
+  145  cp /cmd/
+  146  cd .
+  147  cd ..
+  148  cd .
+  149  cd ..
+  150  cd /git-intro
+  151  cd mingw64
+  152  cd /mingw64
+  153  ls -la 
+  154  cd ..
+  155  cd git-intro/
+  156  cd git-intro/
+  157  ls -la
+  158  cd /c/Users/nikit/Downloads/molodec.jpg 
+  159  #!/bin/bash
+  160  date
+  161  echo "hello $USER!" 
+  162  cd "$(dirname "$0")"
+  163  echo "i'm working here: $(pwd)"
+  164  ps -ef | grep bioset | grep -v grep | wc -l
+  165  ls -la /etc/passwd | awk '{print $1}'
+  166  pwd
+  167  cd git-intro/git-intro/
+  168  cp /c/Users/nikit/Downloads/molodec.jpg 
+  169  cp /c/Users/nikit/Downloads/molodec.jpg /c/Users/nikit/git-intro/git-intro/
+  170  ls -la
+  171  cat molodec.jpg 
+  172  git status
+  173  git add molodec.jpg 
+  174  git status
+  175  git commit -m 'added photo'
+  176  git status
+  177  git push 
+  178  git remote -v
+  179  mkdir - p learning_git
+  180  cd learning_git/
+  181  git clone git@github.com:saysh0/learning_git.git
+  182  ls -la
+  183  cd learning_git/
+  184  ls -la
+  185  mkdir -p 121225-ptm/nikitos.txt
+  186  cd 121225-ptm/
+  187  ls -la
+  188  git status
+  189  git add ./
+  190  git status
+  191  git commit -m 'added new dir and new file with name'
+  192  git push 
+  193  ls -la 
+  194  cd ..
+  195  ls -la
+  196  git status
+  197  git branch\
+  198  git status
+  199  git remote
+  200  git remote -v
+  201  git log
+  202  git log --online
+  203  git log -online
+  204  git log --help
+  205  git log --log-size
+  206  git ыефегы
+  207  git status
+  208  ls -la
+  209  cd 121225-ptm/
+  210  touch nichita123.txt
+  211  git status
+  212  rm -d 121225-ptm/
+  213  rm -d 121225-ptm
+  214  cd ..
+  215  ls -la
+  216  rm -d 121225-ptm
+  217  rm -rd 121225-ptm
+  218  git status
+  219  mkdir -p 121225-ptm
+  220  cd 121225-ptm/
+  221  touch nikitos.txt
+  222  cd ..
+  223  ls -la
+  224  git status
+  225  git add 121225-ptm/nikitos.txt
+  226  git status
+  227  git commit -m 'added dir and file with name'
+  228  git status
+  229  git push
+  230  mkdir -p 16_03
+  231  cd learning_git/
+  232  pull
+  233  git pull
+  234  ls -la
+  235  cd learning_git/
+  236  pull
+  237  git pull
+  238  cd learning_git/
+  239  cd learning_git/
+  240  cd 121225-ptm/
+  241  ls -la
+  242  ping -t steampowered.com
+  243  env
+  244  export EDITOR=nano
+  245  env
+  246  mkdir -p lesson_24
+  247  cd lesson_24/
+  248  git innit
+  249  git init
+  250  echo "this is some content to mess with" > merge.txt
+  251  ls -l
+  252  git add merge.txt 
+  253  git status
+  254  git commit -am "we are commiting the inital content"
+  255  git status
+  256  git checkout -b new_branch_to_merge_later
+  257  git branch 
+  258  echo "totally different content to merge later" > merge.txt
+  259  git commit -am "edited the content of merge.txt to cause a conflict"
+  260  git switch main
+  261  echo "content to append" >> merge.txt
+  262  git status
+  263  git add merge.txt 
+  264  git commit -m "appended content to merge.txt"
+  265  git status
+  266  git merge new_branch_to_merge_later
+  267  git status
+  268  nano merge.txt 
+  269  git add merge.txt 
+  270  git commit -m "updated fifel"
+  271  git status
+  272  cat merge.txt 
+  273  git switch new_branch_to_merge_later 
+  274  cat merge.txt 
+  275  git branch -d
+  276  git branch -d new_branch_to_merge_later 
+  277  git branch -D new_branch_to_merge_later 
+  278  git switch main
+  279  git branch -d new_branch_to_merge_later 
+  280  git log --online --graph
+  281  git log --oneline --graph
+  282  git log --oneline
+  283  git -v
+  284  mkdir -p git_team_work
+  285  cd git_team_work/
+  286  ls
+  287  git pull
+  288  ls
+  289  git remote -v
+  290  git remote add upstream https://github.com/it-career-hub/git_team_work.git
+  291  git remote -v
+  292  git checkout -b new_branch_nik
+  293  git pull upstream
+  294  пше ыефегы
+  295  git status
+  296  git switch main
+  297  git pull upstream
+  298  git pull main upstream
+  299  git pull upstream ьфшт
+  300  git pull upstream main
+  301  git status
+  302  git psuh 
+  303  git push 
+  304  git status
+  305  git push main
+  306  git push
+  307  git push origin
+  308  git status
+  309  git remote -v
+  310  git remote rm origin
+  311  git remote -v
+  312  git remote add origin git@github.com:saysh0/git_team_work.git
+  313  git push
+  314  git push --set-upstream origin main
+  315  git log 
+  316  git branch -b issue2
+  317  git checkout -b issue2
+  318  nano 121225-ptm.sh
+  319  cat 121225-ptm.sh
+  320  git add 121225-ptm.sh
+  321  git commit 'issue 2 done'
+  322  git commit -m 'issue 2 done'
+  323  git status
+  324  git switch main
+  325  git merge issue2
+  326  git status
+  327  git push
+  328  git branch -d issue2
+  329  git pull upstream main
+  330  git status
+  331  git push
+  332  git pull
+  333  git pull
+  334  git pull
+  335  git pull upstream main
+  336  git push
+  337  git status
+  338  git pull upstream main
+  339  git status
+  340  git push
+  341  ssh ec2-user@linux.itcareerhub.de
+  342  cd /c/Users/nikit/PycharmProjects/PycharmProjects
+  343  cd /c/Users/nikit
+  344  ls
+  345  cd PycharmProjects/
+  346  ls
+  347  cd PythonProject
+  348  ls
+  349  ls
+  350  git status
+  351  git remote -v\
+  352  git remote -v
+  353  git remote -d main 
+  354  git remote remove main 
+  355  git remote -v
+  356  git remote main git@github.com:saysh0/saysho-homeworks.git
+  357  git remote add main git@github.com:saysh0/saysho-homeworks.git
+  358  git remote -v
+  359  git status
+  360  git pull 
+  361  git pull --set--main main
+  362  git pull --set-main main
+  363  git pull 
+  364  git pull main main
+  365  ls
+  366  mkdir -p PythonProjects
+  367  mkdir -p LinuxProjects
+  368  mkdir -p SQLProjects
+  369  ls
+  370  git ls-files
+  371  git ls -files
+  372  git ls-files | xargs -I {} mv {} PythonProjects/
+  373  ls
+  374  cd PythonProjects/
+  375  ls
+  376  cd ..
+  377  git status
+  378  git ды
+  379  ls'
+  380  ls\
+  381  ls
+  382  cd LinuxProjects/
+  383  touch LovwLinux
+  384  cd ..
+  385  ls
+  386  cd SQLProjects/
+  387  mv /c/IT/
+  388  ls /c/IT/
+  389  mv /c/IT/homework.database.5.23-02-26.sql .
+  390  ls
+  391  mv /c/IT/homework.database.7.25-02-26.sql .
+  392  mv /c/IT/homework.database.9.05-03-26.sql .
+  393  mv /c/IT/homework.database.10.10-03-26.sql .
+  394  mv /c/IT/homework.database.11.18-03-26.sql .
+  395  ls
+  396  cd ..
+  397  ls
+  398  git add PythonProjects/ LinuxProjects/ SQLProjects/
+  399  git status
+  400  git commit -m 'added 3dirs with names of lessons, put and sort files with homework in dirs' 
+  401  git status
+  402  git add -u
+  403  git status
+  404  git commit -m 'move files from main to dirs with lesson name'
+  405  git push
+  406  git push --set-upstream main main
+  407  git status
+  408  cd ..
+  409  cd ..
+  410  ssh ec2-user@linux.itcareerhub.de
+  411  cd /c/Users/nikit/
+  412  cd /c/Users/nikit/PycharmProjects/
+  413  cd /c/Users/nikit/PycharmProjects/PythonProject/PythonProjects/
+  414  ls
+  415  git rm --cached praktika.python 02.02.26.py
+  416  git rm --cached 'praktika.python 02.02.26.py'
+  417  git status
+  418  ls
+  419  git commit -m 'Удалил файл лишний файл практики'
+  420  git push
+  421  ls
+  422  cd ..
+  423  ls
+  424  git rm --cached praktika.python.11.25-03-26.py
+  425  git commit -m 'Удалил файл лишний файл практики в неправильном месте'
+  426  git push
+  427  cd /c/Users/nikit/PycharmProjects/
+  428  ls
+  429  cd /c/Users/nikit/PycharmProjects/PythonProject/LinuxProjects/
+  430  touch ping_script.sh
+  431  nano ping_script.sh 
+  432  chmod +x ping_script.sh
+  433  ls
+  434  bash ping_script.sh 
+  435  nano ping_script.sh 
+  436  nano ping_script.sh 
+  437  bash ping_script.sh 
+  438  nano ping_script.sh 
+  439  bash ping_script.sh 
+  440  nano ping_script.sh 
+  441  bash ping_script.sh 
+  442  nano ping_script.sh 
+  443  bash ping_script.sh 
+  444  nano ping_script.sh 
+  445  bash ping_script.sh 
+  446  bash ping_script.sh 
+  447  nano ping_script_V2.sh
+  448  bash ping_script_V2.sh
+  449  ls
+  450  rm -rf ping_script.sh
+  451  git status
+  452  git 
+  453  git status
+  454  git commit -m 'added file script with conection ping to website monitoring
+  455  git push
+  456  ды
+  457  ls
+  458  mkdor -p git_branch
+  459  mkdir -p git_branch
+  460  cd git_branch/
+  461  git pull 
+  462  git init
+  463  ls
+  464  cd ..
+  465  ls
+  466  rm -rf git_branch/
+  467  ls
+  468  mkdir -p git-branch
+  469  cd git-branch/
+  470  git init
+  471  git switch --help
+  472  git switch -b gitignore
+  473  git branch -b gitignore
+  474  git switch -c gitignore
+  475  touch .gitignore
+  476  nano .gitignore 
+  477  ls
+  478  ls
+  479  ls -la
+  480  cat .gitignore 
+  481  git status
+  482  git add .
+  483  git status
+  484  git commint -m 'added file .gitignore with settings inside'
+  485  git commit -m 'added file .gitignore with settings inside'
+  486  git remote -v
+  487  git remote add main git@github.com:saysh0/git-branch.git
+  488  git status
+  489  git push
+  490  git push --set-upstream main gitignore
+  491  git status
+  492  git branch 
+  493  git switch -c main 
+  494  git branch 
+  495  git push --set-upstream main main
+  496  git push -u origin main
+  497  git push -u main main
+  498  git remote -v
+  499  git pull
+  500  ssh ec2-user@linux.itcareerhub.de
+  501  mkdir -p got_dz_12
+  502  cd got_dz_12/
+  503  git clone git@github.com:saysh0/got_dz_12.git
+  504  ls
+  505  cd got_dz_12/
+  506  touch .gitignore
+  507  git switch -c feature
+  508  touch README.md .gitignore
+  509  ls
+  510  cat README.md 
+  511  ls -la
+  512  git status
+  513  git add .
+  514  git commit -m 'added README.md and .gitignore in branch feature'
+  515  git switch main 
+  516  git branch
+  517  git switch -c main
+  518  git branch
+  519  touch .gitignore
+  520  git switch feature 
+  521  git switch main
+  522  git status
+  523  ls -la
+  524  git branch 
+  525  git switch feature 
+  526  ls -la
+  527  git switch main
+  528  rm -rf README.md 
+  529  git status
+  530  git push
+  531  cd ..
+  532  ls
+  533  rm got_dz_12/
+  534  rm - rf got_dz_12/
+  535  rm -rf got_dz_12/
+  536  ls
+  537  git copy git@github.com:saysh0/git_dz_12.git
+  538  git clone git@github.com:saysh0/git_dz_12.git
+  539  cd git_dz_12/
+  540  ls
+  541  ls -la
+  542  git checkout -b feature
+  543  git branch 
+  544  touch README.md .gitignore
+  545  ls -la
+  546  git status
+  547  git add README.md .gitignore
+  548  git statsu
+  549  git status
+  550  git commint -m 'in branch feature added README.md and .gitignore'
+  551  git commit -m 'in branch feature added README.md and .gitignore'
+  552  git push
+  553  git push --set-upstream origin main
+  554  git branch 
+  555  git switch main 
+  556  git push
+  557  git push --set-upstream origin feature
+  558  git commit --amend -m 'in branch feature added README.md and .gitignore amend'
+  559  git switch main 
+  560  git merge feature
+  561  git status
+  562  git push 
+  563  [200~git push origin main --force
+  564  git push origin main --force
+  565  git push origin feature --force
+  566  git merge feature
+  567  [200~git merge feature --allow-unrelated-histories
+  568  git merge feature --allow-unrelated-histories
+  569  git push 
+  570  ls -la
+  571  history > history.txt
